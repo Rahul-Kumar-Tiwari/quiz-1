@@ -126,7 +126,7 @@ if gender=="m" or gender=="M":
 		print("Hii Sir, Your Name is",name)
 		print("")
 		print("I Would like to collect some more information About You")
-		age1=input("Enter your age (Eligibility criteria is more than 20):")
+		age=input("Enter your age (Eligibility criteria is more than 20):")
 		if age.isdigit():
 			if int(age)>20:
 				print("Welcome",name,"sir,as your age is",age,"years,You are eligible for Python Fundamental Course...")
@@ -134,8 +134,10 @@ if gender=="m" or gender=="M":
 				print("Sir!..you are not eligible for Python Fundamental course...")
 		else:
 			print("Sir!..please enter your age correctly(in digit)..")
+			ag()
 	else:
 		print("Sir!..please enter your name correctly(in alphabet)..")
+		nam()
 				
 elif gender=="f" or gender=="F":
 	print("Hello Mam,,We Welcome you on Board...")

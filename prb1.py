@@ -3,10 +3,12 @@
 
 name=input("enter your name:")
 age=int(input("enter your age:"))
-if age>101:
-	print(name,",congrats! you turned 100")
+if age>101:	
+	print(name,",congrats! you have turned 100")
 else:
-	print(name,",you don't turned 100")
+	rest=100-age
+	print(name,",you will turn hundred after",rest,"years")
+	
 	
  
 #WAP to print a number divisible by 7 not 5

@@ -34,6 +34,7 @@ time.sleep(1)
 print("|   / \ ")
 time.sleep(1)
 print("Let's Start")
+time.sleep(2)
 print("")
 
 #making lists for word slection!
@@ -44,16 +45,12 @@ car=["Nissan","Toyota"," Honda","Chevrolet","Mercedes","Volvo","Cadillac","Lexus
 
 #hints!
 print("1.Animal")
-time.sleep(1)	#sleep for 1 sec!
 print("2.cricplayer")
-time.sleep(1)
 print("3.color")
-time.sleep(1)
 print("4.car")
-time.sleep(1)
 print("5.Exit")
-time.sleep(1)
 choice=int(input("Enter your choice:"))	#take input from user
+
 
 # function define
 def animal_f():

@@ -13,11 +13,21 @@ def keywords():
 			break
 	
 	if flag==0:
-		print(search,"is not a keyword")
+		print(search,"is not a keyword.")
 		print('keywords:')
 		for x in range(1,34):
 			print(d[x])
 		
-			
-			
 keywords()
+
+#method-2
+
+import keyword
+
+search=input("enter any keyword:")
+if keyword.iskeyword(search):
+	print(search,"is a keyword.")
+else:
+	print(search,"is not akeyword")
+	print("list of keywords")
+	print(keyword.kwlist)

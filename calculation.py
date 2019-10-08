@@ -1,5 +1,6 @@
 #calculation
 
+#Menu for calculation
 print("_____welcome_____")
 print("choose numbers below to perform various operation")
 print("")
@@ -10,6 +11,7 @@ print("4. Raise to power")
 print("5. Division")
 print("6. Floor Division")
 print("7. Factorail")
+
 def again():	#here function is used to perform calculation according to user and to be used after one opeartion
 	num=int(input("Enter your choice:"))
 	print("")
